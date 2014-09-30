@@ -18,4 +18,5 @@ end
 
 group :test do
   gem 'capybara', '~> 2.3.0'
+  gem 'capybara-angular', '~> 0.0.4'
 end
