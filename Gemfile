@@ -11,6 +11,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
+gem 'bower-rails'
+gem 'angular-rails-templates'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.1'
@@ -18,5 +20,5 @@ end
 
 group :test do
   gem 'capybara', '~> 2.3.0'
-  gem 'capybara-angular', '~> 0.0.4'
+  gem 'poltergeist'
 end
