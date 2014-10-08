@@ -12,8 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require es5-shim/es5-shim
 //= require angular
 //= require angular-route
+//= require angular-cookies
+//= require ng-token-auth
 //= require angular-rails-templates
 //= require_tree ../templates
 //= require_tree .
